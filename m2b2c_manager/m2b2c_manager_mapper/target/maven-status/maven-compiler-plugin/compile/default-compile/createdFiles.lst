@@ -1,0 +1,12 @@
+com\luoye\mapper\BrandMapper.class
+com\luoye\mapper\TestuserMapper.class
+com\luoye\mapper\GoodsSpuMapper.class
+com\luoye\mapper\BrandCategoryMapper.class
+com\luoye\mapper\GoodsSkuTypeMapper.class
+com\luoye\mapper\GoodsSpecParamMapper.class
+com\luoye\mapper\GoodsSkuSpecMapper.class
+com\luoye\mapper\UserMapper.class
+com\luoye\mapper\GoodsCategoryMapper.class
+com\luoye\mapper\GoodsSkuMapper.class
+com\luoye\mapper\GoodsSpecGroupMapper.class
+com\luoye\mapper\GoodsTypeMapper.class

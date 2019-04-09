@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_common/m2b2c_common.iml" filepath="$PROJECT_DIR$/m2b2c_common/m2b2c_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_dao/m2b2c_manager_dao.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_dao/m2b2c_manager_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/m2b2c_manager_mapper.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/m2b2c_manager_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/m2b2c_manager_model.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/m2b2c_manager_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/m2b2c_manager_service.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/m2b2c_manager_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/m2b2c_manager_web.iml" filepath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/m2b2c_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_parent/m2b2c_parent.iml" filepath="$PROJECT_DIR$/m2b2c_parent/m2b2c_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_portal/m2b2c_portal.iml" filepath="$PROJECT_DIR$/m2b2c_portal/m2b2c_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_rest/m2b2c_rest.iml" filepath="$PROJECT_DIR$/m2b2c_rest/m2b2c_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_search/m2b2c_search.iml" filepath="$PROJECT_DIR$/m2b2c_search/m2b2c_search.iml" />
+    </modules>
+  </component>
+</project>

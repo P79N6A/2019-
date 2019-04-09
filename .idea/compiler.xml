@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="m2b2c_common" />
+        <module name="m2b2c_manager_dao" />
+        <module name="m2b2c_manager_interface" />
+        <module name="m2b2c_manager_mapper" />
+        <module name="m2b2c_manager_model" />
+        <module name="m2b2c_manager_service" />
+        <module name="m2b2c_manager_web" />
+        <module name="m2b2c_portal" />
+        <module name="m2b2c_rest" />
+        <module name="m2b2c_search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="m2b2c_common" target="1.8" />
+      <module name="m2b2c_manager" target="1.8" />
+      <module name="m2b2c_manager_dao" target="1.8" />
+      <module name="m2b2c_manager_interface" target="1.8" />
+      <module name="m2b2c_manager_mapper" target="1.8" />
+      <module name="m2b2c_manager_model" target="1.8" />
+      <module name="m2b2c_manager_service" target="1.8" />
+      <module name="m2b2c_manager_web" target="1.8" />
+      <module name="m2b2c_parent" target="1.8" />
+      <module name="m2b2c_portal" target="1.8" />
+      <module name="m2b2c_rest" target="1.8" />
+      <module name="m2b2c_search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

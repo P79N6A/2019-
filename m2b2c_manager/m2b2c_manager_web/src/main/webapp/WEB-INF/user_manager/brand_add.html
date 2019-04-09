@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>品牌商入驻管理</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="../css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <!-- Panel Other -->
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>角色信息管理</h5>
+        </div>
+        <div class="ibox-content">
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <!-- Example Events -->
+                    <div class="example-wrap">
+                        <div class="example">
+                            <div class="btn-group hidden-xs" id="exampleTableEventsToolbar" role="group">
+                                <button type="button" class="btn btn-outline btn-default">
+                                    <i class="glyphicon glyphicon-plus" aria-hidden="true"></i> 新增
+                                </button>
+                                <button type="button" class="btn btn-outline btn-default">
+                                    <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i> 修改
+                                </button>
+                                <button type="button" class="btn btn-outline btn-default">
+                                    <i class="glyphicon glyphicon-trash" aria-hidden="true"></i> 删除
+                                </button>
+                                <button type="button" class="btn btn-outline btn-default">
+                                    <i class="glyphicon glyphicon-trash" aria-hidden="true"></i> 批量删除
+                                </button>
+                            </div>
+                            <table id="exampleTableEvents" rows-height="750" rows-mobile-responsive="true">
+                                <thead>
+                                <tr>
+                                    <th rows-field="state" rows-checkbox="true"></th>
+                                    <th rows-field="id">ID</th>
+                                    <th rows-field="name">名称</th>
+                                    <th rows-field="price">价格</th>
+                                </tr>
+                                </thead>
+
+                                <tbody id="J_template">
+                                <c:if test="${fn:length(categories) == 0}">
+                                    <tr>
+                                        <td style="text-align: center;"> 无查询结果</td>
+                                    </tr>
+                                </c:if>
+                                <c:if test="${fn:length(categories) > 0}">
+                                    <c:forEach var="category" items="${categories}">
+                                        <tr id="item">
+                                            <td hidden="hidden">${category.id}</td>
+                                            <td>${category.name}</td>
+                                            <td>${category.mnemonicCode}</td>
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+                                                    <a id="editLink" class="blue"
+                                                       onclick="editCategory(${category.id},'${category.name}','${category.mnemonicCode}')"
+                                                       rows-toggle="modal"
+                                                       rows-target="#editModel"
+                                                       title="编辑" style="cursor:pointer;">[编辑]</a>
+                                                    <a id="delLink" class="blue"
+                                                       onclick="delCategory(${category.id})" rows-toggle="modal"
+                                                       rows-target="#tipModel"
+                                                       title="删除" style="cursor:pointer;">[删除]</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </c:forEach>
+                                </c:if>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <!-- End Example Events -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 全局js -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Bootstrap table -->
+<script src="../js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="../js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="../js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+
+<!-- Peity -->
+<script src="role.js"></script>
+
+</body>
+
+</html>

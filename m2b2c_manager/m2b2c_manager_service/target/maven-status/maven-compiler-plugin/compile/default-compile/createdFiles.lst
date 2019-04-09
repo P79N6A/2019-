@@ -1,0 +1,6 @@
+com\luoye\service\BrandManagerService.class
+com\luoye\service\impl\UserManagerServiceImpl.class
+com\luoye\service\impl\UserServiceImpl.class
+com\luoye\service\impl\BrandManagerServiceImpl.class
+com\luoye\service\UserManagerService.class
+com\luoye\service\UserService.class

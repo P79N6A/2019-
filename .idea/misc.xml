@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/m2b2c_portal" />
+    <file type="web" url="file://$PROJECT_DIR$/m2b2c_rest" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/m2b2c_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_common/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
